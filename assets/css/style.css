@@ -210,9 +210,29 @@ CSS DE ÁREAS ESPECÍFICAS
     flex: 1;
 }
 
-.section-aboutus--left p{
-    font-size: 14;
-    line-height: 25px;
+.section-aboutus--left-social .left-social{
+    display: flex;
+}
+
+.section-aboutus--left ul{
+    font-size: 24px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.section-aboutus--left a{
+    background-color: #336196;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.section-aboutus--left img{
 }
 
 .section-aboutus--right{
